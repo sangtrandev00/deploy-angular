@@ -1,0 +1,42 @@
+<div class="product-detail p-4 border">
+    <div class="product-detail__header bg-secondary-subtle p-2 border">
+        {{product?.productName}}
+    </div>
+    <div class="product-detail__content p-4">
+        <div class="row">
+            <div class="col-6">
+                <div class="product-detail__name">
+                    <span class="label w-25 fw-bold">Name: </span>
+                    {{product?.productName}}
+                </div>
+                <div class="product-detail__code">
+                    <span class="label w-25 fw-bold">Code: </span>
+                    {{product?.productCode}}
+                </div>
+                <div class="product-detail__desc">
+                    <span class="label w-25 fw-bold">Description: </span>
+                    {{product?.description}}
+                </div>
+                <div class="product-detail__availability">
+                    <span class="label w-25 fw-bold">Availability: </span>
+                    {{product?.releaseDate}}
+                </div>
+                <div class="product-detail__price">
+                    <span class="label w-25 fw-bold">Price: </span>
+                    {{product?.price}}
+                </div>
+                <div class="product-detail__rate">
+                    <span class="label w-25 fw-bold">{{product?.starRating}} Star Rating: </span>
+                    <app-star-rating [rating]="product?.starRating || 0"
+                        [productName]="product?.productName || ''"></app-star-rating>
+                </div>
+            </div>
+            <div class="col-6">
+                <img style="width: 200px; height: 200px; object-fit: contain" src="{{product?.imageUrl}}" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="product-detail__footer btn btn-primary" routerLink="/products">
+        Back
+    </div>
+</div>

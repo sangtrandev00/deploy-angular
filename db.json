@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Leaf Rake - updated",
+      "productCode": "GDN-0011",
+      "releaseDate": "2016-09-03",
+      "description": "Leaf rake with 48-inch wooden handle.",
+      "price": 19.95,
+      "starRating": 3.2,
+      "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    },
+    {
+      "id": 2,
+      "productName": "Garden Cart",
+      "productCode": "GDN-0023",
+      "releaseDate": "1/3/2016",
+      "description": "15 gallon capacity rolling garden cart",
+      "price": 32.99,
+      "starRating": 4.2,
+      "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+    },
+    {
+      "id": 8,
+      "productName": "Saw",
+      "productCode": "TBX-0022",
+      "releaseDate": "1/15/2021",
+      "description": "15-inch steel blade hand saw",
+      "price": 11.55,
+      "starRating": 3.7,
+      "imageUrl": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+    },
+    {
+      "id": 10,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "10/10/2022",
+      "description": "Standard two-button video game controller",
+      "price": 35.95,
+      "starRating": 4.6,
+      "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+    },
+    {
+      "productName": "874",
+      "productCode": "7",
+      "releaseDate": "2016-11-06",
+      "description": "Laboris ea vel omnis",
+      "price": 338,
+      "starRating": 4,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1679913792906-13ccc5c84d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 12
+    },
+    {
+      "productName": "943",
+      "productCode": "219",
+      "releaseDate": "2016-11-06",
+      "description": "Et omnis culpa sit ",
+      "price": 42,
+      "starRating": 525,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1679913792906-13ccc5c84d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 13
+    },
+    {
+      "productName": "732",
+      "productCode": "130",
+      "releaseDate": "1986-11-02",
+      "description": "Deserunt qui debitis",
+      "price": 313,
+      "starRating": 39,
+      "imageUrl": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 14
+    },
+    {
+      "productName": "738",
+      "productCode": "89",
+      "releaseDate": "1971-07-26",
+      "description": "Nemo error ut minim ",
+      "price": 44,
+      "starRating": 889,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 15
+    }
+  ]
+}

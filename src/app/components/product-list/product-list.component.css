@@ -1,0 +1,11 @@
+.table {
+  width: 60rem;
+}
+
+.my-pagination ::ng-deep .ngx-pagination .current {
+  background: red;
+}
+
+.my-pagination ::ng-deep .ngx-pagination {
+  width: 300px;
+}

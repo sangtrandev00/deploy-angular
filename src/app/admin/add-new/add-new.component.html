@@ -1,0 +1,44 @@
+<!-- <p>add-new works!</p> -->
+<!-- [formGroup]="addForm" (ngSubmit)="onSubmit()" -->
+<div class="container py-4">
+    <form action="" class="px-4 mt-4" [formGroup]="addForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="" class="form-label">Tên sản phẩm</label>
+            <input type="text" class="form-control" formControlName="productName" id="" aria-describedby="helpId"
+                placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Hình ảnh sản phẩm</label>
+            <input type="text" class="form-control" formControlName="imageUrl" id="" aria-describedby="helpId"
+                placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Má số sản phẩm</label>
+            <input type="text" class="form-control" formControlName="productCode" id="" aria-describedby="helpId"
+                placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Available</label>
+            <input type="date" class="form-control" formControlName="releaseDate" id="" aria-describedby="helpId"
+                placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Price</label>
+            <input type="number" class="form-control" formControlName="price" id="" aria-describedby="helpId"
+                placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Đánh giá</label>
+            <input type="number" class="form-control" formControlName="starRating" id="" aria-describedby="helpId"
+                placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Nội dung</label>
+            <textarea class="form-control" formControlName="description" id="" rows="3"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary ms-2 ">Save
+            changes</button>
+    </form>
+</div>
